@@ -1,24 +1,18 @@
-# README
+# Yohannes-Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>This is Ruby on Rails 7.1 application that allows users to create thier own Portfolio
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+-Real time chat engine for comments
+-Blog
+-Portfolio
+-Drag and Drop intefaces
 
-* System dependencies
+### Code example
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+def sample_api
+  puts "Here is the API"
+end
+```  
