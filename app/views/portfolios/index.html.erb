@@ -3,7 +3,7 @@
     <p><%= portfolios_item.title%></p>
     <p><%= portfolios_item.subtitle%></p>
     <p><%= portfolios_item.body%></p>
-    <p><%= image_tag portfolios_item.thumb_image%></p>
+    <p><%= image_tag portfolios_item.thumb_image unless portfolios_item.thumb_image.nil? %></p>
    
 <% end %>    
 
